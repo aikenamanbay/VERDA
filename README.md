@@ -48,7 +48,7 @@ Proposed assignments for the four team members.
 
 | Member | Responsibility |
 | --- | --- |
-| Aiken Amanbay | Product and UI design. Own the charter, user flows, and Figma prototype. |
+| Arujan Tulegenova | Product and UI design. Own the charter, user flows, and Figma prototype. |
 | Assel Balgabay | Core app and cloud data. Implement login, live dashboard, and device controls (M1–M3). |
-| Arujan Tulegenova | Automation and alerts. Implement modes, rules, notifications, and settings (M4, M5, M7). |
+| Aiken Amanbay | Automation and alerts. Implement modes, rules, notifications, and settings (M4, M5, M7). |
 | Assylai Zhumakulova | History, offline behavior, and cold-night readiness. Implement M6, M8, and the extra feature. Coordinate demo testing. |
