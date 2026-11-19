@@ -28,7 +28,7 @@ Every member commits code every week; the brief asks for 20+ meaningful commits 
 | Week | Deliverable | Status |
 |---|---|---|
 | 1 | Idea and team: [project charter](docs/week1-project-charter.md) ([PDF](docs/VERDA-Week1-Project-Charter.pdf)) | ✅ |
-| 2 | Design: [design system](docs/week2-design-system.md), [data model](docs/week2-data-model.md), [app diagram and stack](docs/week2-architecture.md), [Figma screens](docs/week2-figma-screens.md) ([PDF pack](docs/VERDA-Week2-Design-Pack.pdf)) | 🟡 Figma in progress |
+| 2 | Design: [style, data structure, app diagram, stack](docs/week2-design.md) ([PDF](docs/VERDA-Week2-Design.pdf)) · Figma prototype | 🟡 Figma in progress |
 | 3 | App skeleton and data | ⏳ |
 | 4 | Login, dashboard, control (M1–M3) | ⏳ |
 | 5 | Automation, alerts, history (M4–M8) | ⏳ |
@@ -38,7 +38,7 @@ Every member commits code every week; the brief asks for 20+ meaningful commits 
 
 ## Tech stack
 
-**React Native (Expo, TypeScript) + Firebase (Auth, Cloud Firestore).** We all use iPhones, so we run the app through Expo Go and build the Android APK in the cloud with EAS. Full reasoning: [docs/week2-architecture.md](docs/week2-architecture.md#stack).
+**React Native (Expo, TypeScript) + Firebase (Auth, Cloud Firestore).** We all use iPhones, so we run the app through Expo Go and build the Android APK in the cloud with EAS. Reasons: [docs/week2-design.md](docs/week2-design.md#4-stack).
 
 ## How to run (from week 3)
 
@@ -56,8 +56,8 @@ Android APK: `npx eas build -p android --profile preview`.
 ```
 VERDA/
 ├── README.md
-├── design/   app diagram, generated screen mockups (SVG)
-├── docs/     weekly deliverables: charter, design system, data model, architecture
+├── design/   app diagram, extra screen mockups (SVG) for Figma
+├── docs/     week 1 charter, week 2 design (MD + PDF)
 ├── brief/    our idea deck (Supernova)
 └── app/      Expo app (from week 3)
 ```
