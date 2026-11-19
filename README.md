@@ -56,7 +56,7 @@ Android APK: `npx eas build -p android --profile preview`.
 ```
 VERDA/
 ├── README.md
-├── design/   app diagram, extra screen mockups (SVG) for Figma
+├── design/   app diagram, screen exports from Figma
 ├── docs/     week 1 charter, week 2 design (MD + PDF)
 ├── brief/    our idea deck (Supernova)
 └── app/      Expo app (from week 3)
