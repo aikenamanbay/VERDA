@@ -8,6 +8,8 @@ greenhouses/{greenhouseId}
  ├── zones/{zoneId}          current readings per zone   (M2, map)
  ├── devices/{deviceId}      on/off state                 (M3, M4)
  ├── settings/main           thresholds, rules, units      (M4, M7)
+ ├── forecast/tonight        outdoor low for the night     (extra feature)
+ ├── checklist/tonight       cold-night readiness          (extra feature)
  ├── history/{readingId}     hourly snapshots, 7+ days     (M6)
  ├── alerts/{alertId}        out-of-range events           (M5)
  └── activity/{eventId}      who switched what and when    (M3 log)
@@ -17,16 +19,16 @@ greenhouses/{greenhouseId}
 
 | Field | Type | Example |
 |---|---|---|
-| `name` | string | "Marat Seitkali" |
-| `email` | string | "marat@verda.app" |
-| `greenhouseId` | string | "gh_talgar_01" |
+| `name` | string | "Aigerim" |
+| `email` | string | "aigerim@verda.app" |
+| `greenhouseId` | string | "gh_dacha_01" |
 | `createdAt` | timestamp | |
 
 ## 2. `greenhouses/{greenhouseId}`
 
 | Field | Type | Example | Notes |
 |---|---|---|---|
-| `name` | string | "Talgar Greenhouse" | |
+| `name` | string | "Dacha Greenhouse" | |
 | `ownerId` | string | uid | Used by the security rules |
 | `areaM2` | number | 4000 | |
 | `mode` | string | `"auto"` \| `"manual"` | M4 switch |
@@ -54,7 +56,7 @@ The dashboard **averages are computed in the app** from all zone documents, for 
 
 | Field | Type | Example |
 |---|---|---|
-| `type` | string | `"irrigation"` \| `"ventilation"` \| `"lighting"` \| `"heating"` |
+| `type` | string | `"irrigation"` \| `"ventilation"` \| `"growLights"` \| `"frostHeater"` |
 | `name` | string | "Drip irrigation" |
 | `zoneIds` | array | `["area_2","area_4"]` (empty = whole greenhouse) |
 | `isOn` | boolean | true |
@@ -70,7 +72,7 @@ The dashboard **averages are computed in the app** from all zone documents, for 
   "cropProfiles": {
     "tomato":     { "airTemp": [18, 28], "soilMoisture": [40, 70], "airHumidity": [50, 75] },
     "cucumber":   { "airTemp": [20, 30], "soilMoisture": [50, 80], "airHumidity": [60, 85] },
-    "strawberry": { "airTemp": [15, 26], "soilMoisture": [35, 65], "airHumidity": [50, 70] }
+    "lettuce":    { "airTemp": [12, 24], "soilMoisture": [45, 75], "airHumidity": [50, 80] }
   },
   "rules": [
     { "id": "r1", "param": "soilMoisture", "op": "<", "value": 30, "device": "irrigation",  "action": "on", "durationMin": 2 },
@@ -83,6 +85,26 @@ The dashboard **averages are computed in the app** from all zone documents, for 
 ```
 
 Validation in the app (M7): a percentage must be 0–100, min < max, temperature −20…60 °C. Wrong values (for example −50 %) are rejected with a message.
+
+## 5b. Cold-night readiness (extra feature)
+
+`forecast/tonight`. The simulator (or the instructor, in the console) writes it.
+
+| Field | Type | Example |
+|---|---|---|
+| `outdoorLow` | number (°C) | −2 |
+| `lowAt` | timestamp | 2026-11-20 04:00 |
+| `updatedAt` | timestamp | |
+
+`checklist/tonight`
+
+| Field | Type | Example | Notes |
+|---|---|---|---|
+| `seedlingsCovered` | boolean | false | Aigerim taps "Covered" |
+| `coveredAt` | timestamp \| null | | |
+| `date` | string | "2026-11-19" | Reset every evening |
+
+**Vents closed** is not stored here. It is read live from `devices/ventilation.isOn == false`, so the card always matches the real vent state. The card appears when `outdoorLow < 3` °C. It is "ready" when the vents are closed **and** `seedlingsCovered == true`.
 
 ## 6. History — `history/{readingId}`
 
@@ -112,7 +134,7 @@ Query for the charts: `where("zoneId","==",z).where("ts",">=",from).orderBy("ts"
 
 ## 8. Activity log — `activity/{eventId}`
 
-`{ ts, deviceId, action: "on"|"off", source: "user"|"automation"|"schedule", uid }`. This answers "who turned the heating on at 3 AM?".
+`{ ts, deviceId, action: "on"|"off", source: "user"|"automation"|"schedule", uid }`. This answers "who closed the vents last night?".
 
 ## What is written when a device is turned on?
 

@@ -10,7 +10,7 @@
 
 ```mermaid
 sequenceDiagram
-  actor U as Marat
+  actor U as Aigerim
   participant UI as Devices screen
   participant DR as devicesRepo
   participant FS as Firestore

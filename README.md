@@ -1,48 +1,52 @@
-<h1 align="center">🌿 Verda</h1>
+<h1 align="center">🌿 VERDA</h1>
 
-<p align="center"><b>Find the zone that's in trouble — and fix it from your phone.</b></p>
+<p align="center"><b>See which bed needs you, and what to do before a cold night, from your phone.</b></p>
 
 ---
 
-**Verda** is a mobile app for greenhouse operators. It shows a live **zone map** of the greenhouse next to a **dashboard of averages**, so the user sees both the big picture and the exact spot where something is wrong, and can turn on watering, ventilation, lighting or heating remotely.
+**VERDA** helps home gardeners manage an unheated greenhouse remotely. A live **zone map** shows which bed is too hot, too dry or at risk of frost. A **dashboard** shows the overall picture. A **cold-night card** lists what still needs doing before the gardener leaves. Watering, vents and grow lights can be switched from anywhere.
 
-Built by **Team Supernova** for the *Smart Greenhouse* course project (6 weeks, Nov–Dec 2026).
+Built by **Team Supernova** for the *Smart Greenhouse* course project (6 weeks, November–December 2026).
+
+## Target user
+
+Aigerim, 37, grows tomato seedlings, cucumbers and lettuce in an unheated 6-bed greenhouse at her dacha. She works weekdays in the city, can't ventilate at midday, waters by guesswork, and sometimes forgets to close the vents or cover the seedlings before a frosty night. Full persona: [project charter](docs/week1-project-charter.md).
 
 ## Team and roles
 
 | Member | Role | Owns in the app (code + design) |
 |---|---|---|
-| **Aiken** | Lead mobile developer | Project setup, navigation, M1 Login, M2 Dashboard, Zone Map (signature feature), M3 Device control |
-| **Aruzhan** | Product designer | Logo, design system, Figma mockups + clickable prototype; codes the shared UI kit (theme, cards, buttons) and M7 Settings screen |
-| **Asylay** | Backend and data engineer | Firebase project, Firestore schema, security rules, test-data seed script, data layer, M4 Automation, M8 Offline handling |
-| **Asel** | Product manager and QA | Charter, README, task board, M5 Alerts, M6 History charts, testing, demo video, final presentation |
+| **Aiken Amanbay** | Lead mobile developer | Project setup, navigation, M1 Login, M2 Dashboard, Zone Map, M3 Device control |
+| **Arujan Tulegenova** | Product designer | Logo, design system, Figma mockups and clickable prototype; codes the shared UI kit and the M7 Settings screen |
+| **Assylai Zhumakulova** | Backend and data engineer | Firebase project, Firestore schema, security rules, test-data seed, data layer, M4 Automation, M8 Offline, cold-night logic |
+| **Assel Balgabay** | Product manager and QA | Charter, README, task board, M5 Alerts, M6 History charts, testing, demo video, final presentation |
 
-Every member commits code every week (the brief asks for 20+ meaningful commits per member).
+Every member commits code every week; the brief asks for 20+ meaningful commits each.
 
 ## Project status
 
 | Week | Deliverable | Status |
 |---|---|---|
-| 1 | Idea and team — [Project charter](docs/week1-project-charter.md) | ✅ Ready |
-| 2 | Design — [Design system](docs/week2-design-system.md), [Data model](docs/week2-data-model.md), [Architecture and stack](docs/week2-architecture.md), [Figma screens and prototype](docs/week2-figma-screens.md) | 🟡 Figma refinement in progress |
+| 1 | Idea and team: [project charter](docs/week1-project-charter.md) ([PDF](docs/VERDA-Week1-Project-Charter.pdf)) | ✅ |
+| 2 | Design: [design system](docs/week2-design-system.md), [data model](docs/week2-data-model.md), [app diagram and stack](docs/week2-architecture.md), [Figma screens](docs/week2-figma-screens.md) ([PDF pack](docs/VERDA-Week2-Design-Pack.pdf)) | 🟡 Figma in progress |
 | 3 | App skeleton and data | ⏳ |
 | 4 | Login, dashboard, control (M1–M3) | ⏳ |
 | 5 | Automation, alerts, history (M4–M8) | ⏳ |
 | 6 | Extra feature and final defense | ⏳ |
 
-**Figma:** _add the prototype link here_
+**Figma prototype:** _add link_
 
 ## Tech stack
 
-**React Native (Expo, TypeScript) + Firebase (Auth, Cloud Firestore).** Full reasoning: [docs/week2-architecture.md](docs/week2-architecture.md#stack).
+**React Native (Expo, TypeScript) + Firebase (Auth, Cloud Firestore).** We all use iPhones, so we run the app through Expo Go and build the Android APK in the cloud with EAS. Full reasoning: [docs/week2-architecture.md](docs/week2-architecture.md#stack).
 
 ## How to run (from week 3)
 
 ```bash
-git clone <repo-url> && cd verda/app
+git clone https://github.com/aikenamanbay/VERDA.git && cd VERDA/app
 npm install
-cp .env.example .env      # add your Firebase web config (never commit .env)
-npx expo start            # scan the QR code with the Expo Go app on iPhone
+cp .env.example .env      # add the Firebase web config; never commit .env
+npx expo start            # scan the QR code with Expo Go on iPhone
 ```
 
 Android APK: `npx eas build -p android --profile preview`.
@@ -50,10 +54,10 @@ Android APK: `npx eas build -p android --profile preview`.
 ## Repository layout
 
 ```
-verda/
+VERDA/
 ├── README.md
-├── design/   logo, app diagram
-├── docs/     weekly deliverables (charter, design system, data model, architecture)
-├── brief/    course brief, rubrics, idea deck
+├── design/   app diagram, generated screen mockups (SVG)
+├── docs/     weekly deliverables: charter, design system, data model, architecture
+├── brief/    our idea deck (Supernova)
 └── app/      Expo app (from week 3)
 ```

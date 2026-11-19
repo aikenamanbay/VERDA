@@ -31,7 +31,7 @@
 <circle cx="56" cy="429" r="20" fill="#E3ECE2"/>
 <path transform="translate(46.0 419.0) scale(0.8333333333333334)" d="M3 8h11a3 3 0 1 0-3-3 M3 12h16a3 3 0 1 1-3 3 M3 16h8" fill="none" stroke="#4B8864" stroke-width="2.16" stroke-linecap="round" stroke-linejoin="round"/>
 <text x="88" y="422" font-family="Inter" font-size="16" font-weight="600" fill="#26352C">Ventilation</text>
-<text x="88" y="443" font-family="Inter" font-size="12.5" font-weight="500" fill="#E3A33B">Sending… opening roof windows</text>
+<text x="88" y="443" font-family="Inter" font-size="12.5" font-weight="500" fill="#E3A33B">Sending… opening roof vents</text>
 <text x="88" y="459" font-family="Inter" font-size="10.5" font-weight="400" fill="#92988D">Whole greenhouse</text>
 <rect x="307" y="414" width="50" height="30" rx="15" fill="#E3ECE2"/>
 <circle cx="332" cy="429" r="12" fill="#FFFFFF"/>
@@ -39,7 +39,7 @@
 <rect x="20" y="480" width="353" height="82" rx="20" fill="#FEFFFA"/>
 <circle cx="56" cy="521" r="20" fill="#FBF0DC"/>
 <path transform="translate(46.0 511.0) scale(0.8333333333333334)" d="M9 18h6 M10 21h4 M12 3a6 6 0 0 0-4 10.5c1 1 1 2 1 3h6c0-1 0-2 1-3A6 6 0 0 0 12 3z" fill="none" stroke="#E3A33B" stroke-width="2.16" stroke-linecap="round" stroke-linejoin="round"/>
-<text x="88" y="514" font-family="Inter" font-size="16" font-weight="600" fill="#26352C">Lighting</text>
+<text x="88" y="514" font-family="Inter" font-size="16" font-weight="600" fill="#26352C">Grow lights</text>
 <text x="88" y="535" font-family="Inter" font-size="12.5" font-weight="400" fill="#63756B">Off · schedule 18:00–22:00</text>
 <text x="88" y="551" font-family="Inter" font-size="10.5" font-weight="400" fill="#92988D">Zones A, C</text>
 <rect x="307" y="506" width="50" height="30" rx="15" fill="#EEECE4"/>
@@ -47,9 +47,9 @@
 <rect x="20" y="572" width="353" height="82" rx="20" fill="#FEFFFA"/>
 <circle cx="56" cy="613" r="20" fill="#F6E3E1"/>
 <path transform="translate(46.0 603.0) scale(0.8333333333333334)" d="M12 3c1 4 6 6 6 11a6 6 0 0 1-12 0c0-3 2-4 3-6 1 2 2 3 3 3 0-3-1-5 0-8z" fill="none" stroke="#802E2F" stroke-width="2.16" stroke-linecap="round" stroke-linejoin="round"/>
-<text x="88" y="606" font-family="Inter" font-size="16" font-weight="600" fill="#26352C">Heating</text>
-<text x="88" y="627" font-family="Inter" font-size="12.5" font-weight="400" fill="#63756B">Off · night target 16 °C</text>
-<text x="88" y="643" font-family="Inter" font-size="10.5" font-weight="400" fill="#92988D">Whole greenhouse</text>
+<text x="88" y="606" font-family="Inter" font-size="16" font-weight="600" fill="#26352C">Frost heater</text>
+<text x="88" y="627" font-family="Inter" font-size="12.5" font-weight="400" fill="#63756B">Off · auto-on below 2 °C</text>
+<text x="88" y="643" font-family="Inter" font-size="10.5" font-weight="400" fill="#92988D">Zone F seedlings</text>
 <rect x="307" y="598" width="50" height="30" rx="15" fill="#EEECE4"/>
 <circle cx="322" cy="613" r="12" fill="#FFFFFF"/>
 <text x="20" y="682" font-family="Inter" font-size="13" font-weight="600" fill="#63756B">Recent activity</text>

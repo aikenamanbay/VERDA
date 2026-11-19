@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="393" height="852" viewBox="0 0 393 852"><title>19 Cold-night card (Home)</title>
+<rect x="0" y="0" width="393" height="852" fill="none"/>
+<rect x="16" y="40" width="361" height="250" rx="24" fill="#1F2D3D"/>
+<circle cx="330" cy="82" r="22" fill="#E8EEF6" opacity="0.9"/><circle cx="341" cy="74" r="20" fill="#1F2D3D"/>
+<circle cx="290" cy="60" r="1.6" fill="#E8EEF6"/>
+<circle cx="270" cy="92" r="1.6" fill="#E8EEF6"/>
+<circle cx="312" cy="112" r="1.6" fill="#E8EEF6"/>
+<text x="36" y="72" font-family="Inter" font-size="11" font-weight="700" fill="#9DB4CF" letter-spacing="1">COLD NIGHT</text>
+<text x="36" y="102" font-family="Inter" font-size="22" font-weight="700" fill="#FFFFFF" letter-spacing="-0.4">Frost tonight · −2 °C</text>
+<text x="36" y="124" font-family="Inter" font-size="12.5" font-weight="400" fill="#B8C6D6">Lowest at 04:00 · Zone F seedlings at risk</text>
+<rect x="32" y="142" width="329" height="52" rx="14" fill="#2B3B4E"/>
+<circle cx="58" cy="168" r="11" fill="#4B8864"/>
+<path transform="translate(51.5 161.5) scale(0.5416666666666666)" d="M5 12l5 5 9-10" fill="none" stroke="#FFFFFF" stroke-width="4.43" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="80" y="165" font-family="Inter" font-size="14" font-weight="600" fill="#FFFFFF">Vents closed</text>
+<text x="80" y="182" font-family="Inter" font-size="11" font-weight="400" fill="#9DB4CF">Closed from the app · 19:42</text>
+<text x="345" y="173" font-family="Inter" font-size="12" font-weight="600" fill="#8FD3A8" text-anchor="end">Done</text>
+<rect x="32" y="202" width="329" height="52" rx="14" fill="#2B3B4E"/>
+<circle cx="58" cy="228" r="10" fill="none" stroke="#9DB4CF" stroke-width="2"/>
+<text x="80" y="225" font-family="Inter" font-size="14" font-weight="600" fill="#FFFFFF">Seedlings covered</text>
+<text x="80" y="242" font-family="Inter" font-size="11" font-weight="400" fill="#9DB4CF">Tap when you've covered Zone F</text>
+<rect x="263" y="214" width="86" height="28" rx="14" fill="#E8EEF6"/>
+<text x="306" y="233" font-family="Inter" font-size="12.5" font-weight="700" fill="#1F2D3D" text-anchor="middle">Covered</text>
+<text x="36" y="276" font-family="Inter" font-size="11.5" font-weight="500" fill="#B8C6D6">1 of 2 done · we'll remind you at 21:00</text>
+</svg>

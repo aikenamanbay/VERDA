@@ -139,7 +139,7 @@ def map_screen():
     s.text(196.5, 260, "Head House · entrance", 12, 500, C["muted"], "middle")
     zones = [("Zone A", "Tomatoes", "19°", C["sageT"], C["sage"]), ("Zone B", "Cucumbers", "22°", C["sageT"], C["sage"]),
              ("Zone C", "Tomatoes", "24°", C["sageT"], C["sage"]), ("Zone D", "Tomatoes", "31°", C["critT"], C["crit"]),
-             ("Zone E", "Lettuce", "27°", C["warnT"], C["warn"]), ("Zone F", "Strawberries", "14°", C["waterT"], C["water"])]
+             ("Zone E", "Lettuce", "27°", C["warnT"], C["warn"]), ("Zone F", "Seedlings", "14°", C["waterT"], C["water"])]
     for i, (n, crop, v, tint, col) in enumerate(zones):
         x = 36 + (i % 2) * 164; y = 282 + (i // 2) * 92
         s.rect(x, y, 157, 84, 14, tint, col, 2 if col == C["crit"] else 1)
@@ -180,7 +180,7 @@ def alerts_screen():
         ("check", C["sageT"], C["sage"], "Watering turned on automatically", "Rule: moisture < 30 % → 2 min", "26 min ago", True, "AUTO"),
     ]
     earlier = [
-        ("thermo", C["waterT"], C["water"], "Zone F is too cold", "14 °C · min 15 °C · Strawberries", "Yesterday, 05:40", False, "RESOLVED"),
+        ("thermo", C["waterT"], C["water"], "Zone F is too cold", "14 °C · min 15 °C · Seedlings", "Yesterday, 05:40", False, "RESOLVED"),
         ("refresh", C["stone"], C["muted"], "Connection restored", "Greenhouse back online after 4 min", "Yesterday, 02:12", False, "SYSTEM"),
     ]
     s.text(20, 238, "Today", 13, 600, C["muted"])
@@ -214,7 +214,7 @@ def banner_overlay():
     s.text(80, 84, "Overheating in Zone D", 15, 700, "#FFFFFF")
     s.text(80, 104, "45 °C · limit 28 °C · tomatoes at risk", 12.5, 400, "#C9D3CC")
     s.rect(80, 116, 118, 26, 13, C["sage"])
-    s.text(139, 133, "Open windows", 12, 600, "#FFFFFF", "middle")
+    s.text(139, 133, "Open vents", 12, 600, "#FFFFFF", "middle")
     s.rect(206, 116, 76, 26, 13, "#3A4A40")
     s.text(244, 133, "View zone", 12, 600, "#FFFFFF", "middle")
     s.text(365, 80, "now", 11, 400, "#9FB0A6", "end")
@@ -234,9 +234,9 @@ def devices_screen():
     s.text(36, 272, "2 rules active · edit in Profile › Greenhouse settings", 11.5, 400, C["muted"])
     rows = [
         ("drop", C["waterT"], C["water"], "Watering", "On · auto-off in 1:42", "on", "Zones B, D"),
-        ("wind", C["sageT"], C["sage"], "Ventilation", "Sending… opening roof windows", "pending", "Whole greenhouse"),
-        ("bulb", C["warnT"], C["warn"], "Lighting", "Off · schedule 18:00–22:00", "off", "Zones A, C"),
-        ("flame", C["critT"], C["crit"], "Heating", "Off · night target 16 °C", "off", "Whole greenhouse"),
+        ("wind", C["sageT"], C["sage"], "Ventilation", "Sending… opening roof vents", "pending", "Whole greenhouse"),
+        ("bulb", C["warnT"], C["warn"], "Grow lights", "Off · schedule 18:00–22:00", "off", "Zones A, C"),
+        ("flame", C["critT"], C["crit"], "Frost heater", "Off · auto-on below 2 °C", "off", "Zone F seedlings"),
     ]
     y = 296
     for ic, tint, col, name, st, state, zone in rows:
@@ -276,7 +276,7 @@ def settings_screen():
         for p in (lo, hi):
             s.add(f'<circle cx="{36 + 321 * p}" cy="{y + 15}" r="8" fill="#FFFFFF" stroke="{col}" stroke-width="2"/>')
     for i, (crop, zones, tint, col) in enumerate([("Cucumber", "Zone B · 20 – 30 °C · 50 – 80 %", C["sageT"], C["sage"]),
-                                                    ("Strawberry", "Zone F · 15 – 26 °C · 35 – 65 %", C["warnT"], C["warn"])]):
+                                                    ("Lettuce", "Zone E · 12 – 24 °C · 45 – 75 %", C["warnT"], C["warn"])]):
         y = 430 + i * 62
         s.rect(20, y, 353, 54, 16)
         s.badge("sprout", 50, y + 27, tint, col, 15, 15)
@@ -436,9 +436,31 @@ def login_error_screen():
     s.homebar(); return s
 
 
+def cold_night_card():
+    s = S("19 Cold-night card (Home)", bg="none")
+    s.parts = [f'<rect x="0" y="0" width="{W}" height="{H}" fill="none"/>']
+    s.rect(16, 40, 361, 250, 24, "#1F2D3D")
+    s.add('<circle cx="330" cy="82" r="22" fill="#E8EEF6" opacity="0.9"/><circle cx="341" cy="74" r="20" fill="#1F2D3D"/>')
+    for x, y in [(290, 60), (270, 92), (312, 112)]:
+        s.add(f'<circle cx="{x}" cy="{y}" r="1.6" fill="#E8EEF6"/>')
+    s.text(36, 72, "COLD NIGHT", 11, 700, "#9DB4CF", ls=1)
+    s.text(36, 102, "Frost tonight · −2 °C", 22, 700, "#FFFFFF", ls=-0.4)
+    s.text(36, 124, "Lowest at 04:00 · Zone F seedlings at risk", 12.5, 400, "#B8C6D6")
+    s.rect(32, 142, 329, 52, 14, "#2B3B4E")
+    s.add(f'<circle cx="58" cy="168" r="11" fill="{C["sage"]}"/>'); s.icon("check", 58, 168, 13, "#FFFFFF", 2.4)
+    s.text(80, 165, "Vents closed", 14, 600, "#FFFFFF"); s.text(80, 182, "Closed from the app · 19:42", 11, 400, "#9DB4CF")
+    s.text(345, 173, "Done", 12, 600, "#8FD3A8", "end")
+    s.rect(32, 202, 329, 52, 14, "#2B3B4E")
+    s.add('<circle cx="58" cy="228" r="10" fill="none" stroke="#9DB4CF" stroke-width="2"/>')
+    s.text(80, 225, "Seedlings covered", 14, 600, "#FFFFFF"); s.text(80, 242, "Tap when you've covered Zone F", 11, 400, "#9DB4CF")
+    s.rect(263, 214, 86, 28, 14, "#E8EEF6"); s.text(306, 233, "Covered", 12.5, 700, "#1F2D3D", "middle")
+    s.text(36, 276, "1 of 2 done · we'll remind you at 21:00", 11.5, 500, "#B8C6D6")
+    return s
+
+
 if __name__ == "__main__":
     out = Path(__file__).parent
     for f in (map_screen, alerts_screen, banner_overlay, devices_screen, settings_screen, rule_screen,
-              analysis_screen, offline_screen, login_error_screen):
+              analysis_screen, offline_screen, login_error_screen, cold_night_card):
         f().save(out)
         print("wrote", f.__name__)

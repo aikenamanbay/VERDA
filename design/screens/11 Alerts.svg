@@ -50,7 +50,7 @@
 <circle cx="54" cy="608" r="18" fill="#E3EDF6"/>
 <path transform="translate(45.0 599.0) scale(0.75)" d="M14 14.8V4a2 2 0 0 0-4 0v10.8a4 4 0 1 0 4 0z" fill="none" stroke="#6E9BC4" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
 <text x="84" y="596" font-family="Inter" font-size="15" font-weight="600" fill="#26352C">Zone F is too cold</text>
-<text x="84" y="616" font-family="Inter" font-size="12.5" font-weight="400" fill="#63756B">14 °C · min 15 °C · Strawberries</text>
+<text x="84" y="616" font-family="Inter" font-size="12.5" font-weight="400" fill="#63756B">14 °C · min 15 °C · Seedlings</text>
 <text x="84" y="635" font-family="Inter" font-size="11" font-weight="400" fill="#92988D">Yesterday, 05:40</text>
 <rect x="293.8" y="624" width="63.2" height="18" rx="9" fill="#E3EDF6"/>
 <text x="325.4" y="637" font-family="Inter" font-size="9.5" font-weight="700" fill="#6E9BC4" text-anchor="middle" letter-spacing="0.4">RESOLVED</text>

@@ -45,8 +45,8 @@
 <rect x="20" y="492" width="353" height="54" rx="16" fill="#FEFFFA"/>
 <circle cx="50" cy="519" r="15" fill="#FBF0DC"/>
 <path transform="translate(42.5 511.5) scale(0.625)" d="M12 21v-9 M12 12c0-4 3-6 7-6 0 4-3 6-7 6z M12 14c0-3-2-5-6-5 0 3 2 5 6 5z" fill="none" stroke="#E3A33B" stroke-width="2.88" stroke-linecap="round" stroke-linejoin="round"/>
-<text x="76" y="516" font-family="Inter" font-size="14.5" font-weight="600" fill="#26352C">Strawberry</text>
-<text x="76" y="533" font-family="Inter" font-size="11.5" font-weight="400" fill="#63756B">Zone F · 15 – 26 °C · 35 – 65 %</text>
+<text x="76" y="516" font-family="Inter" font-size="14.5" font-weight="600" fill="#26352C">Lettuce</text>
+<text x="76" y="533" font-family="Inter" font-size="11.5" font-weight="400" fill="#63756B">Zone E · 12 – 24 °C · 45 – 75 %</text>
 <path transform="translate(342.0 511.0) scale(0.6666666666666666)" d="M9 6l6 6-6 6" fill="none" stroke="#63756B" stroke-width="2.70" stroke-linecap="round" stroke-linejoin="round"/>
 <text x="20" y="576" font-family="Inter" font-size="13" font-weight="600" fill="#63756B">Units</text>
 <rect x="20" y="586" width="353" height="48" rx="16" fill="#FEFFFA"/>

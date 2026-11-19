@@ -1,6 +1,6 @@
 # Verda — Design System
 
-**Direction:** warm, calm SaaS in the spirit of Linear, Notion or Stripe, but organic. Cream paper, sage green, soft rounded cards, generous white space. Colour is used for **status**, not decoration. Marat checks the app in a bright greenhouse or on the road, so **readability and an instant status** matter more than ornament.
+**Direction:** warm, calm SaaS in the spirit of Linear, Notion or Stripe, but organic. Cream paper, sage green, soft rounded cards, generous white space. Colour is used for **status**, not decoration. Aigerim checks the app in a bright greenhouse or on the road, so **readability and an instant status** matter more than ornament.
 
 ## Logo
 
