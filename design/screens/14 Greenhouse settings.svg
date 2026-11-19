@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="393" height="852" viewBox="0 0 393 852"><title>14 Greenhouse settings</title>
+<rect x="0" y="0" width="393" height="852" fill="#F7F3EC"/>
+<text x="32" y="34" font-family="Inter" font-size="15" font-weight="600" fill="#26352C">9:41</text>
+<rect x="330" y="23" width="25" height="12" rx="3.5" fill="none" stroke="#26352C" stroke-width="1.2"/>
+<rect x="332" y="25" width="18" height="8" rx="2" fill="#26352C"/>
+<rect x="296" y="30" width="3" height="4" rx="1" fill="#26352C"/>
+<rect x="301" y="28" width="3" height="6" rx="1" fill="#26352C"/>
+<rect x="306" y="26" width="3" height="8" rx="1" fill="#26352C"/>
+<rect x="311" y="24" width="3" height="10" rx="1" fill="#26352C"/>
+<rect x="20" y="56" width="40" height="40" rx="20" fill="#FEFFFA" stroke="#E6E2D8" stroke-width="1"/>
+<path transform="translate(31.0 67.0) scale(0.75)" d="M15 6l-6 6 6 6" fill="none" stroke="#26352C" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="20" y="128" font-family="Inter" font-size="30" font-weight="700" fill="#26352C" letter-spacing="-0.6">Greenhouse settings</text>
+<text x="20" y="152" font-family="Inter" font-size="13" font-weight="400" fill="#63756B">Thresholds, units and schedule</text>
+<text x="20" y="196" font-family="Inter" font-size="13" font-weight="600" fill="#63756B">Crop profiles</text>
+<rect x="20" y="206" width="353" height="214" rx="20" fill="#FEFFFA"/>
+<circle cx="52" cy="238" r="16" fill="#F6E3E1"/>
+<path transform="translate(44.0 230.0) scale(0.6666666666666666)" d="M12 21v-9 M12 12c0-4 3-6 7-6 0 4-3 6-7 6z M12 14c0-3-2-5-6-5 0 3 2 5 6 5z" fill="none" stroke="#802E2F" stroke-width="2.70" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="78" y="236" font-family="Inter" font-size="16" font-weight="700" fill="#26352C">Tomato</text>
+<text x="78" y="252" font-family="Inter" font-size="11.5" font-weight="400" fill="#63756B">Zones A, C, D</text>
+<path transform="translate(341.0 231.0) scale(0.75)" d="M6 9l6 6 6-6" fill="none" stroke="#63756B" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="36" y="284" font-family="Inter" font-size="13" font-weight="500" fill="#26352C">Air temperature</text>
+<text x="357" y="284" font-family="Inter" font-size="13" font-weight="700" fill="#26352C" text-anchor="end">18 – 28 °C</text>
+<rect x="36" y="296" width="321" height="6" rx="3" fill="#EEECE4"/>
+<rect x="138.72" y="296" width="128.39999999999998" height="6" rx="3" fill="#4B8864"/>
+<circle cx="138.72" cy="299" r="8" fill="#FFFFFF" stroke="#4B8864" stroke-width="2"/>
+<circle cx="267.12" cy="299" r="8" fill="#FFFFFF" stroke="#4B8864" stroke-width="2"/>
+<text x="36" y="330" font-family="Inter" font-size="13" font-weight="500" fill="#26352C">Soil moisture</text>
+<text x="357" y="330" font-family="Inter" font-size="13" font-weight="700" fill="#26352C" text-anchor="end">40 – 70 %</text>
+<rect x="36" y="342" width="321" height="6" rx="3" fill="#EEECE4"/>
+<rect x="164.4" y="342" width="96.29999999999998" height="6" rx="3" fill="#6E9BC4"/>
+<circle cx="164.4" cy="345" r="8" fill="#FFFFFF" stroke="#6E9BC4" stroke-width="2"/>
+<circle cx="260.7" cy="345" r="8" fill="#FFFFFF" stroke="#6E9BC4" stroke-width="2"/>
+<text x="36" y="376" font-family="Inter" font-size="13" font-weight="500" fill="#26352C">Air humidity</text>
+<text x="357" y="376" font-family="Inter" font-size="13" font-weight="700" fill="#26352C" text-anchor="end">50 – 75 %</text>
+<rect x="36" y="388" width="321" height="6" rx="3" fill="#EEECE4"/>
+<rect x="196.5" y="388" width="80.25" height="6" rx="3" fill="#4B8864"/>
+<circle cx="196.5" cy="391" r="8" fill="#FFFFFF" stroke="#4B8864" stroke-width="2"/>
+<circle cx="276.75" cy="391" r="8" fill="#FFFFFF" stroke="#4B8864" stroke-width="2"/>
+<rect x="20" y="430" width="353" height="54" rx="16" fill="#FEFFFA"/>
+<circle cx="50" cy="457" r="15" fill="#E3ECE2"/>
+<path transform="translate(42.5 449.5) scale(0.625)" d="M12 21v-9 M12 12c0-4 3-6 7-6 0 4-3 6-7 6z M12 14c0-3-2-5-6-5 0 3 2 5 6 5z" fill="none" stroke="#4B8864" stroke-width="2.88" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="76" y="454" font-family="Inter" font-size="14.5" font-weight="600" fill="#26352C">Cucumber</text>
+<text x="76" y="471" font-family="Inter" font-size="11.5" font-weight="400" fill="#63756B">Zone B · 20 – 30 °C · 50 – 80 %</text>
+<path transform="translate(342.0 449.0) scale(0.6666666666666666)" d="M9 6l6 6-6 6" fill="none" stroke="#63756B" stroke-width="2.70" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="20" y="492" width="353" height="54" rx="16" fill="#FEFFFA"/>
+<circle cx="50" cy="519" r="15" fill="#FBF0DC"/>
+<path transform="translate(42.5 511.5) scale(0.625)" d="M12 21v-9 M12 12c0-4 3-6 7-6 0 4-3 6-7 6z M12 14c0-3-2-5-6-5 0 3 2 5 6 5z" fill="none" stroke="#E3A33B" stroke-width="2.88" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="76" y="516" font-family="Inter" font-size="14.5" font-weight="600" fill="#26352C">Strawberry</text>
+<text x="76" y="533" font-family="Inter" font-size="11.5" font-weight="400" fill="#63756B">Zone F · 15 – 26 °C · 35 – 65 %</text>
+<path transform="translate(342.0 511.0) scale(0.6666666666666666)" d="M9 6l6 6-6 6" fill="none" stroke="#63756B" stroke-width="2.70" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="20" y="576" font-family="Inter" font-size="13" font-weight="600" fill="#63756B">Units</text>
+<rect x="20" y="586" width="353" height="48" rx="16" fill="#FEFFFA"/>
+<text x="36" y="615" font-family="Inter" font-size="14" font-weight="500" fill="#26352C">Temperature</text>
+<rect x="253" y="595" width="104" height="30" rx="15" fill="#EEECE4"/>
+<rect x="256" y="598" width="50" height="24" rx="12" fill="#26352C"/>
+<text x="281" y="615" font-family="Inter" font-size="12.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">°C</text>
+<text x="331" y="615" font-family="Inter" font-size="12.5" font-weight="500" fill="#63756B" text-anchor="middle">°F</text>
+<text x="20" y="660" font-family="Inter" font-size="13" font-weight="600" fill="#63756B">Watering schedule &amp; rules</text>
+<rect x="20" y="670" width="353" height="92" rx="16" fill="#FEFFFA"/>
+<path transform="translate(31.0 685.0) scale(0.75)" d="M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18z M12 7v5l3 2" fill="none" stroke="#6E9BC4" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="60" y="699" font-family="Inter" font-size="13.5" font-weight="500" fill="#26352C">06:00 · 10 min · Mon Wed Fri</text>
+<rect x="315" y="682" width="50" height="30" rx="15" fill="#4B8864"/>
+<circle cx="350" cy="697" r="12" fill="#FFFFFF"/>
+<line x1="36" y1="716" x2="357" y2="716" stroke="#E6E2D8"/>
+<path transform="translate(31.0 730.0) scale(0.75)" d="M12 21v-9 M12 12c0-4 3-6 7-6 0 4-3 6-7 6z M12 14c0-3-2-5-6-5 0 3 2 5 6 5z" fill="none" stroke="#4B8864" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="60" y="744" font-family="Inter" font-size="13.5" font-weight="500" fill="#26352C">Automation rules</text>
+<text x="330" y="744" font-family="Inter" font-size="12.5" font-weight="600" fill="#4B8864" text-anchor="end">2 active</text>
+<path transform="translate(342.0 731.0) scale(0.6666666666666666)" d="M9 6l6 6-6 6" fill="none" stroke="#63756B" stroke-width="2.70" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="0" y="772" width="393" height="80" rx="0" fill="#FEFFFA"/>
+<line x1="0" y1="772" x2="393" y2="772" stroke="#E6E2D8"/>
+<path transform="translate(28.0 785.0) scale(0.9166666666666666)" d="M3 10.5 12 3l9 7.5V20a1 1 0 0 1-1 1h-5v-6h-6v6H4a1 1 0 0 1-1-1z" fill="none" stroke="#92988D" stroke-width="1.96" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="39.0" y="822" font-family="Inter" font-size="10.5" font-weight="500" fill="#92988D" text-anchor="middle">Home</text>
+<path transform="translate(106.75 785.0) scale(0.9166666666666666)" d="M12 21v-9 M12 12c0-4 3-6 7-6 0 4-3 6-7 6z M12 14c0-3-2-5-6-5 0 3 2 5 6 5z" fill="none" stroke="#92988D" stroke-width="1.96" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="117.75" y="822" font-family="Inter" font-size="10.5" font-weight="500" fill="#92988D" text-anchor="middle">Greenhouse</text>
+<path transform="translate(185.5 785.0) scale(0.9166666666666666)" d="M4 20h16 M6 16l4-5 3 3 6-8" fill="none" stroke="#92988D" stroke-width="1.96" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="196.5" y="822" font-family="Inter" font-size="10.5" font-weight="500" fill="#92988D" text-anchor="middle">Analysis</text>
+<path transform="translate(264.25 785.0) scale(0.9166666666666666)" d="M3 10h18l-2 10H5z M8 10l4-6 4 6" fill="none" stroke="#92988D" stroke-width="1.96" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="275.25" y="822" font-family="Inter" font-size="10.5" font-weight="500" fill="#92988D" text-anchor="middle">Harvest</text>
+<path transform="translate(343.0 785.0) scale(0.9166666666666666)" d="M12 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8z M4 21c1-4 4-6 8-6s7 2 8 6" fill="none" stroke="#4B8864" stroke-width="1.96" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="354.0" y="822" font-family="Inter" font-size="10.5" font-weight="600" fill="#4B8864" text-anchor="middle">Profile</text>
+<rect x="130" y="838" width="134" height="5" rx="2.5" fill="#26352C"/>
+</svg>

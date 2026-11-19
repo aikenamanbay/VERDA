@@ -1,0 +1,10 @@
+node_modules/
+.expo/
+.env
+*.keystore
+.DS_Store
+__pycache__/
+
+# course materials stay local; only our own deck is shared
+brief/*
+!brief/Supernova.pptx.pdf

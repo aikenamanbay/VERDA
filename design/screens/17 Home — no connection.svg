@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="393" height="852" viewBox="0 0 393 852"><title>17 Home — no connection</title>
+<rect x="0" y="0" width="393" height="852" fill="#F7F3EC"/>
+<text x="32" y="34" font-family="Inter" font-size="15" font-weight="600" fill="#26352C">9:41</text>
+<rect x="330" y="23" width="25" height="12" rx="3.5" fill="none" stroke="#26352C" stroke-width="1.2"/>
+<rect x="332" y="25" width="18" height="8" rx="2" fill="#26352C"/>
+<rect x="296" y="30" width="3" height="4" rx="1" fill="#26352C"/>
+<rect x="301" y="28" width="3" height="6" rx="1" fill="#26352C"/>
+<rect x="306" y="26" width="3" height="8" rx="1" fill="#26352C"/>
+<rect x="311" y="24" width="3" height="10" rx="1" fill="#26352C"/>
+<text x="20" y="86" font-family="Inter" font-size="13" font-weight="400" fill="#63756B">Good evening!</text>
+<text x="20" y="110" font-family="Inter" font-size="22" font-weight="700" fill="#26352C" letter-spacing="-0.4">Verda Greenhouse</text>
+<rect x="333" y="72" width="40" height="40" rx="20" fill="#FEFFFA" stroke="#E6E2D8" stroke-width="1"/>
+<path transform="translate(344.0 83.0) scale(0.75)" d="M6 16v-5a6 6 0 0 1 12 0v5l2 2H4z M10 21h4" fill="none" stroke="#26352C" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="20" y="132" width="353" height="70" rx="18" fill="#26352C"/>
+<circle cx="52" cy="167" r="18" fill="#3A4A40"/>
+<path transform="translate(43.0 158.0) scale(0.75)" d="M3 3l18 18 M8.5 16.5a5 5 0 0 1 7 0 M5 12.5a10 10 0 0 1 5-2.7 M19 12.5a10 10 0 0 0-2.5-1.8 M2 8.8a15 15 0 0 1 4.5-2.7 M22 8.8A15 15 0 0 0 11 5 M12 20h.01" fill="none" stroke="#FFFFFF" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="82" y="160" font-family="Inter" font-size="14.5" font-weight="700" fill="#FFFFFF">No connection to greenhouse</text>
+<text x="82" y="180" font-family="Inter" font-size="12" font-weight="400" fill="#C9D3CC">Showing data from 14:32 · retrying…</text>
+<path transform="translate(343.0 158.0) scale(0.75)" d="M20 11a8 8 0 1 0-2.3 5.7 M20 4v7h-7" fill="none" stroke="#C9D3CC" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="20" y="232" font-family="Inter" font-size="13" font-weight="600" fill="#63756B">Last known values</text>
+<rect x="20" y="244" width="172" height="112" rx="22" fill="#FEFFFA" opacity="0.75"/>
+<circle cx="62" cy="300" r="24" fill="none" stroke="#EEECE4" stroke-width="6"/>
+<path d="M62 276 a24 24 0 1 1 -14.1 4.6" fill="none" stroke="#92988D" stroke-width="6" stroke-linecap="round"/>
+<text x="62" y="305" font-family="Inter" font-size="13" font-weight="700" fill="#63756B" text-anchor="middle">92%</text>
+<text x="98" y="288" font-family="Inter" font-size="11" font-weight="400" fill="#92988D">Health</text>
+<text x="98" y="306" font-family="Inter" font-size="15" font-weight="600" fill="#63756B">Healthy</text>
+<text x="98" y="323" font-family="Inter" font-size="11" font-weight="400" fill="#92988D">at 14:32</text>
+<rect x="201" y="244" width="172" height="112" rx="22" fill="#FEFFFA" opacity="0.75"/>
+<path transform="translate(219.0 283.0) scale(1.4166666666666667)" d="M12 16a4 4 0 1 0 0-8 4 4 0 0 0 0 8z M12 2v2 M12 20v2 M4.9 4.9l1.4 1.4 M17.7 17.7l1.4 1.4 M2 12h2 M20 12h2 M4.9 19.1l1.4-1.4 M17.7 6.3l1.4-1.4" fill="none" stroke="#92988D" stroke-width="1.13" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="266" y="306" font-family="Inter" font-size="22" font-weight="700" fill="#63756B">24°C</text>
+<text x="266" y="324" font-family="Inter" font-size="11" font-weight="400" fill="#92988D">at 14:32</text>
+<text x="20" y="388" font-family="Inter" font-size="13" font-weight="600" fill="#63756B">Controls</text>
+<rect x="20" y="400" width="353" height="168" rx="22" fill="#FEFFFA"/>
+<path transform="translate(35.0 421.0) scale(0.75)" d="M12 3s6 7 6 11a6 6 0 0 1-12 0c0-4 6-11 6-11z" fill="none" stroke="#92988D" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="66" y="435" font-family="Inter" font-size="14" font-weight="500" fill="#92988D">Watering</text>
+<rect x="307" y="416" width="50" height="30" rx="15" fill="#EEECE4" opacity="0.45"/>
+<circle cx="322" cy="431" r="12" fill="#FFFFFF" opacity="0.45"/>
+<path transform="translate(35.0 465.0) scale(0.75)" d="M3 8h11a3 3 0 1 0-3-3 M3 12h16a3 3 0 1 1-3 3 M3 16h8" fill="none" stroke="#92988D" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="66" y="479" font-family="Inter" font-size="14" font-weight="500" fill="#92988D">Ventilation</text>
+<rect x="307" y="460" width="50" height="30" rx="15" fill="#EEECE4" opacity="0.45"/>
+<circle cx="322" cy="475" r="12" fill="#FFFFFF" opacity="0.45"/>
+<path transform="translate(35.0 509.0) scale(0.75)" d="M9 18h6 M10 21h4 M12 3a6 6 0 0 0-4 10.5c1 1 1 2 1 3h6c0-1 0-2 1-3A6 6 0 0 0 12 3z" fill="none" stroke="#92988D" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="66" y="523" font-family="Inter" font-size="14" font-weight="500" fill="#92988D">Lighting</text>
+<rect x="307" y="504" width="50" height="30" rx="15" fill="#EEECE4" opacity="0.45"/>
+<circle cx="322" cy="519" r="12" fill="#FFFFFF" opacity="0.45"/>
+<rect x="36" y="542" width="321" height="0.1" rx="0" fill="#FEFFFA"/>
+<text x="196.5" y="556" font-family="Inter" font-size="11.5" font-weight="500" fill="#63756B" text-anchor="middle">Controls are paused until the connection is back</text>
+<rect x="20" y="584" width="353" height="64" rx="18" fill="#EEECE4"/>
+<path transform="translate(35.0 607.0) scale(0.75)" d="M12 3 2 20h20z M12 10v4 M12 17h.01" fill="none" stroke="#63756B" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="64" y="611" font-family="Inter" font-size="13" font-weight="600" fill="#26352C">Nothing is sent while offline</text>
+<text x="64" y="629" font-family="Inter" font-size="11.5" font-weight="400" fill="#63756B">New readings and alerts load when you're back.</text>
+<rect x="0" y="772" width="393" height="80" rx="0" fill="#FEFFFA"/>
+<line x1="0" y1="772" x2="393" y2="772" stroke="#E6E2D8"/>
+<path transform="translate(28.0 785.0) scale(0.9166666666666666)" d="M3 10.5 12 3l9 7.5V20a1 1 0 0 1-1 1h-5v-6h-6v6H4a1 1 0 0 1-1-1z" fill="none" stroke="#4B8864" stroke-width="1.96" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="39.0" y="822" font-family="Inter" font-size="10.5" font-weight="600" fill="#4B8864" text-anchor="middle">Home</text>
+<path transform="translate(106.75 785.0) scale(0.9166666666666666)" d="M12 21v-9 M12 12c0-4 3-6 7-6 0 4-3 6-7 6z M12 14c0-3-2-5-6-5 0 3 2 5 6 5z" fill="none" stroke="#92988D" stroke-width="1.96" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="117.75" y="822" font-family="Inter" font-size="10.5" font-weight="500" fill="#92988D" text-anchor="middle">Greenhouse</text>
+<path transform="translate(185.5 785.0) scale(0.9166666666666666)" d="M4 20h16 M6 16l4-5 3 3 6-8" fill="none" stroke="#92988D" stroke-width="1.96" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="196.5" y="822" font-family="Inter" font-size="10.5" font-weight="500" fill="#92988D" text-anchor="middle">Analysis</text>
+<path transform="translate(264.25 785.0) scale(0.9166666666666666)" d="M3 10h18l-2 10H5z M8 10l4-6 4 6" fill="none" stroke="#92988D" stroke-width="1.96" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="275.25" y="822" font-family="Inter" font-size="10.5" font-weight="500" fill="#92988D" text-anchor="middle">Harvest</text>
+<path transform="translate(343.0 785.0) scale(0.9166666666666666)" d="M12 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8z M4 21c1-4 4-6 8-6s7 2 8 6" fill="none" stroke="#92988D" stroke-width="1.96" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="354.0" y="822" font-family="Inter" font-size="10.5" font-weight="500" fill="#92988D" text-anchor="middle">Profile</text>
+<rect x="130" y="838" width="134" height="5" rx="2.5" fill="#26352C"/>
+</svg>

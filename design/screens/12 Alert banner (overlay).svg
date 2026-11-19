@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="393" height="852" viewBox="0 0 393 852"><title>12 Alert banner (overlay)</title>
+<rect x="0" y="0" width="393" height="852" fill="none"/>
+<rect x="12" y="54" width="369" height="96" rx="22" fill="#26352C"/>
+<circle cx="48" cy="92" r="20" fill="#3A4A40"/>
+<path transform="translate(38.0 82.0) scale(0.8333333333333334)" d="M14 14.8V4a2 2 0 0 0-4 0v10.8a4 4 0 1 0 4 0z" fill="none" stroke="#F6B4AE" stroke-width="2.16" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="80" y="84" font-family="Inter" font-size="15" font-weight="700" fill="#FFFFFF">Overheating in Zone D</text>
+<text x="80" y="104" font-family="Inter" font-size="12.5" font-weight="400" fill="#C9D3CC">45 °C · limit 28 °C · tomatoes at risk</text>
+<rect x="80" y="116" width="118" height="26" rx="13" fill="#4B8864"/>
+<text x="139" y="133" font-family="Inter" font-size="12" font-weight="600" fill="#FFFFFF" text-anchor="middle">Open windows</text>
+<rect x="206" y="116" width="76" height="26" rx="13" fill="#3A4A40"/>
+<text x="244" y="133" font-family="Inter" font-size="12" font-weight="600" fill="#FFFFFF" text-anchor="middle">View zone</text>
+<text x="365" y="80" font-family="Inter" font-size="11" font-weight="400" fill="#9FB0A6" text-anchor="end">now</text>
+</svg>
