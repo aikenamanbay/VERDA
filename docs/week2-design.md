@@ -1,6 +1,6 @@
 # VERDA — Week 2: Design
 
-**Team Supernova** · Figma prototype: _add link_
+**Team Supernova** · Figma: [https://www.figma.com/design/3alIxkFbGmd98m6Q3XBWZw/Verda?node-id=0-1](https://www.figma.com/design/3alIxkFbGmd98m6Q3XBWZw/Verda?node-id=0-1)
 
 ## 1. Style: logo, colours, font
 

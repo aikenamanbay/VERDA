@@ -28,13 +28,13 @@ Every member commits code every week; the brief asks for 20+ meaningful commits 
 | Week | Deliverable | Status |
 |---|---|---|
 | 1 | Idea and team: [project charter](docs/week1-project-charter.md) ([PDF](docs/VERDA-Week1-Project-Charter.pdf)) | ✅ |
-| 2 | Design: [style, data structure, app diagram, stack](docs/week2-design.md) ([PDF](docs/VERDA-Week2-Design.pdf)) · Figma prototype | 🟡 Figma in progress |
+| 2 | Design: [style, data structure, app diagram, stack](docs/week2-design.md) ([PDF](docs/VERDA-Week2-Design.pdf)) · Figma prototype | 🟡 Figma in progress ([link](https://www.figma.com/design/3alIxkFbGmd98m6Q3XBWZw/Verda?node-id=0-1)) |
 | 3 | App skeleton and data | ⏳ |
 | 4 | Login, dashboard, control (M1–M3) | ⏳ |
 | 5 | Automation, alerts, history (M4–M8) | ⏳ |
 | 6 | Extra feature and final defense | ⏳ |
 
-**Figma prototype:** _add link_
+**Figma:** [https://www.figma.com/design/3alIxkFbGmd98m6Q3XBWZw/Verda?node-id=0-1](https://www.figma.com/design/3alIxkFbGmd98m6Q3XBWZw/Verda?node-id=0-1)
 
 ## Tech stack
 
