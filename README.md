@@ -36,6 +36,18 @@ Every member commits code every week; the brief asks for 20+ meaningful commits 
 
 **Figma:** [https://www.figma.com/design/3alIxkFbGmd98m6Q3XBWZw/Verda?node-id=0-1](https://www.figma.com/design/3alIxkFbGmd98m6Q3XBWZw/Verda?node-id=0-1)
 
+## Screens
+
+All 17 screens from the Figma file (files in [design/screens](design/screens)).
+
+<table>
+<tr><td align="center"><img src="design/screens/beginning.png" width="180" alt="Beginning screen"><br>Beginning</td><td align="center"><img src="design/screens/login.png" width="180" alt="Login screen"><br>Login</td><td align="center"><img src="design/screens/home.png" width="180" alt="Home screen"><br>Home</td><td align="center"><img src="design/screens/notifications.png" width="180" alt="Notifications screen"><br>Notifications</td></tr>
+<tr><td align="center"><img src="design/screens/greenhouse.png" width="180" alt="Greenhouse screen"><br>Greenhouse</td><td align="center"><img src="design/screens/zone-a.png" width="180" alt="Zone A screen"><br>Zone A</td><td align="center"><img src="design/screens/zone-b.png" width="180" alt="Zone B screen"><br>Zone B</td><td align="center"><img src="design/screens/zone-c.png" width="180" alt="Zone C screen"><br>Zone C</td></tr>
+<tr><td align="center"><img src="design/screens/zone-d.png" width="180" alt="Zone D screen"><br>Zone D</td><td align="center"><img src="design/screens/zone-e.png" width="180" alt="Zone E screen"><br>Zone E</td><td align="center"><img src="design/screens/zone-f.png" width="180" alt="Zone F screen"><br>Zone F</td><td align="center"><img src="design/screens/harvest.png" width="180" alt="Harvest screen"><br>Harvest</td></tr>
+<tr><td align="center"><img src="design/screens/analysis-week.png" width="180" alt="Analysis week screen"><br>Analysis week</td><td align="center"><img src="design/screens/analysis-month.png" width="180" alt="Analysis month screen"><br>Analysis month</td><td align="center"><img src="design/screens/analysis-year.png" width="180" alt="Analysis year screen"><br>Analysis year</td><td align="center"><img src="design/screens/profile.png" width="180" alt="Profile screen"><br>Profile</td></tr>
+<tr><td align="center"><img src="design/screens/settings.png" width="180" alt="Settings screen"><br>Settings</td></tr>
+</table>
+
 ## Tech stack
 
 **React Native (Expo, TypeScript) + Firebase (Auth, Cloud Firestore).** We all use iPhones, so we run the app through Expo Go and build the Android APK in the cloud with EAS. Reasons: [docs/week2-design.md](docs/week2-design.md#4-stack).
@@ -56,7 +68,7 @@ Android APK: `npx eas build -p android --profile preview`.
 ```
 VERDA/
 ├── README.md
-├── design/   app diagram, screen exports from Figma
+├── design/   app diagram, screenshots of the Figma screens
 ├── docs/     week 1 charter, week 2 design (MD + PDF)
 ├── brief/    our idea deck (Supernova)
 └── app/      Expo app (from week 3)
