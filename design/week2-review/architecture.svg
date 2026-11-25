@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 390" role="img" aria-labelledby="title"><title id="title">VERDA week 2 application architecture</title>
+<rect x="0" y="0" width="720" height="390" rx="6" fill="#eff3ee"/>
+<text x="20" y="29" font-family="Arial,sans-serif" font-weight="bold" font-size="21" fill="#13231a">VERDA application architecture</text>
+<rect x="20" y="42" width="202" height="30" rx="6" fill="#13231a"/>
+<text x="31" y="62" font-family="Arial,sans-serif" font-weight="bold" font-size="14" fill="#c9f25b">Screens</text>
+<rect x="259" y="42" width="202" height="30" rx="6" fill="#13231a"/>
+<text x="270" y="62" font-family="Arial,sans-serif" font-weight="bold" font-size="14" fill="#c9f25b">Data layer</text>
+<rect x="498" y="42" width="202" height="30" rx="6" fill="#13231a"/>
+<text x="509" y="62" font-family="Arial,sans-serif" font-weight="bold" font-size="14" fill="#c9f25b">Firebase</text>
+<rect x="20" y="82" width="202" height="30" rx="6" fill="#ffffff"/>
+<text x="31" y="102" font-family="Arial,sans-serif" font-weight="normal" font-size="13" fill="#13231a">Login</text>
+<rect x="259" y="82" width="202" height="30" rx="6" fill="#ffffff"/>
+<text x="270" y="102" font-family="Arial,sans-serif" font-weight="normal" font-size="13" fill="#13231a">Auth service</text>
+<rect x="498" y="82" width="202" height="30" rx="6" fill="#ffffff"/>
+<text x="509" y="102" font-family="Arial,sans-serif" font-weight="normal" font-size="13" fill="#13231a">Firebase Auth</text>
+<path d="M228 97 H253 M233 93 L228 97 L233 101 M248 93 L253 97 L248 101" fill="none" stroke="#526159"/>
+<path d="M467 97 H492 M472 93 L467 97 L472 101 M487 93 L492 97 L487 101" fill="none" stroke="#526159"/>
+<rect x="20" y="121" width="202" height="30" rx="6" fill="#ffffff"/>
+<text x="31" y="141" font-family="Arial,sans-serif" font-weight="normal" font-size="13" fill="#13231a">Home and zone map</text>
+<rect x="259" y="121" width="202" height="30" rx="6" fill="#ffffff"/>
+<text x="270" y="141" font-family="Arial,sans-serif" font-weight="normal" font-size="13" fill="#13231a">Zones repository</text>
+<rect x="498" y="121" width="202" height="30" rx="6" fill="#ffffff"/>
+<text x="509" y="141" font-family="Arial,sans-serif" font-weight="normal" font-size="13" fill="#13231a">zones/</text>
+<path d="M228 136 H253 M233 132 L228 136 L233 140 M248 132 L253 136 L248 140" fill="none" stroke="#526159"/>
+<path d="M467 136 H492 M472 132 L467 136 L472 140 M487 132 L492 136 L487 140" fill="none" stroke="#526159"/>
+<rect x="20" y="160" width="202" height="30" rx="6" fill="#ffffff"/>
+<text x="31" y="180" font-family="Arial,sans-serif" font-weight="normal" font-size="13" fill="#13231a">Zone and Control</text>
+<rect x="259" y="160" width="202" height="30" rx="6" fill="#ffffff"/>
+<text x="270" y="180" font-family="Arial,sans-serif" font-weight="normal" font-size="13" fill="#13231a">Devices repository</text>
+<rect x="498" y="160" width="202" height="30" rx="6" fill="#ffffff"/>
+<text x="509" y="180" font-family="Arial,sans-serif" font-weight="normal" font-size="13" fill="#13231a">devices/ + activity/</text>
+<path d="M228 175 H253 M233 171 L228 175 L233 179 M248 171 L253 175 L248 179" fill="none" stroke="#526159"/>
+<path d="M467 175 H492 M472 171 L467 175 L472 179 M487 171 L492 175 L487 179" fill="none" stroke="#526159"/>
+<rect x="20" y="199" width="202" height="30" rx="6" fill="#ffffff"/>
+<text x="31" y="219" font-family="Arial,sans-serif" font-weight="normal" font-size="13" fill="#13231a">Settings and Auto</text>
+<rect x="259" y="199" width="202" height="30" rx="6" fill="#ffffff"/>
+<text x="270" y="219" font-family="Arial,sans-serif" font-weight="normal" font-size="13" fill="#13231a">Settings and rules</text>
+<rect x="498" y="199" width="202" height="30" rx="6" fill="#ffffff"/>
+<text x="509" y="219" font-family="Arial,sans-serif" font-weight="normal" font-size="13" fill="#13231a">settings/main</text>
+<path d="M228 214 H253 M233 210 L228 214 L233 218 M248 210 L253 214 L248 218" fill="none" stroke="#526159"/>
+<path d="M467 214 H492 M472 210 L467 214 L472 218 M487 210 L492 214 L487 218" fill="none" stroke="#526159"/>
+<rect x="20" y="238" width="202" height="30" rx="6" fill="#ffffff"/>
+<text x="31" y="258" font-family="Arial,sans-serif" font-weight="normal" font-size="13" fill="#13231a">History and Alerts</text>
+<rect x="259" y="238" width="202" height="30" rx="6" fill="#ffffff"/>
+<text x="270" y="258" font-family="Arial,sans-serif" font-weight="normal" font-size="13" fill="#13231a">History and alerts</text>
+<rect x="498" y="238" width="202" height="30" rx="6" fill="#ffffff"/>
+<text x="509" y="258" font-family="Arial,sans-serif" font-weight="normal" font-size="13" fill="#13231a">history/ + alerts/</text>
+<path d="M228 253 H253 M233 249 L228 253 L233 257 M248 249 L253 253 L248 257" fill="none" stroke="#526159"/>
+<path d="M467 253 H492 M472 249 L467 253 L472 257 M487 249 L492 253 L487 257" fill="none" stroke="#526159"/>
+<rect x="20" y="277" width="202" height="30" rx="6" fill="#ffffff"/>
+<text x="31" y="297" font-family="Arial,sans-serif" font-weight="normal" font-size="13" fill="#13231a">Home / Cold Night</text>
+<rect x="259" y="277" width="202" height="30" rx="6" fill="#ffffff"/>
+<text x="270" y="297" font-family="Arial,sans-serif" font-weight="normal" font-size="13" fill="#13231a">Cold Night data</text>
+<rect x="498" y="277" width="202" height="30" rx="6" fill="#ffffff"/>
+<text x="509" y="297" font-family="Arial,sans-serif" font-weight="normal" font-size="13" fill="#13231a">forecast/ + checklist/</text>
+<path d="M228 292 H253 M233 288 L228 292 L233 296 M248 288 L253 292 L248 296" fill="none" stroke="#526159"/>
+<path d="M467 292 H492 M472 288 L467 292 L472 296 M487 288 L492 292 L487 296" fill="none" stroke="#526159"/>
+<text x="20" y="328" font-family="Arial,sans-serif" font-weight="bold" font-size="13" fill="#13231a">Water: send device command; receive Firestore confirmation and updated state.</text>
+<text x="20" y="349" font-family="Arial,sans-serif" font-weight="normal" font-size="12" fill="#526159">Cold Night also reads device state. Auto checks incoming readings before writing device changes.</text>
+<text x="20" y="370" font-family="Arial,sans-serif" font-weight="normal" font-size="12" fill="#526159">NetInfo feeds connection status to the screens. Firestore Console supplies test changes for the demo.</text>
+</svg>
